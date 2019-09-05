@@ -30,7 +30,8 @@
     {
       "type": "chef-solo",
       "cookbook_paths":  ["./cookbooks"],
-      "run_list": ["mongodb::default"]
+      "run_list": ["mongodb::default"],
+      "execute_command": "sudo chef-solo --chef-license accept"
 
     },
     {
